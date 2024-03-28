@@ -2,7 +2,7 @@
 
 ### Descrição
 
-Workshop sobre as APIs do ChatGPT e DALLE apresentado no AI-SIN-LIMITES.
+Workshop sobre as APIs do ChatGPT e DALLE.
 
 ### Arquivos
 
