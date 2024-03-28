@@ -11,9 +11,9 @@ Workshop sobre as APIs do ChatGPT e DALLE apresentado no AI-SIN-LIMITES.
 
 ### Como usar
 
-1. Importe a collection do Postman.
-2. Crie uma variável de ambiente chamada `azure_openai_key` e adicione a sua chave de acesso.
-3. Execute as requisições.
+1. Importe a collection para o Postman ou Thunder Client no VS Code.
+2. Execute as requisições.
+3. Após o Workshop você deverá alterar a chave da API para a sua chave pessoal para continuar utilizando as APIs.
 
 OBS: A chave da API disponibilizada ficará válida somente até o dia 01/04/2024.
 
