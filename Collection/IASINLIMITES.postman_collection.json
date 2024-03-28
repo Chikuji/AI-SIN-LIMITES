@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "c5ae3f8e-543d-4c05-a0ba-bb62ca8681c0",
 		"name": "IASINLIMITES",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "33912463"
 	},
 	"item": [
@@ -17,12 +17,12 @@
 					},
 					{
 						"key": "api-key",
-						"value": "{{keysc}}"
+						"value": "{{key}}"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"messages\": \n  [{\n    \"role\":\"system\",\n    \"content\":\"Você converte input em schema JSON. Siga essa estrutura { Pergunta: input}\"}\n    ,{\"role\":\"user\",\"content\":\"Qual a largura da terra?, Qual a velocidade da luz, Qual a velocidade da terra\"}],\n  \"max_tokens\": 800,\n  \"temperature\": 0.7,\n  \"frequency_penalty\": 0,\n  \"presence_penalty\": 0,\n  \"top_p\": 0.95,\n  \"stop\": null\n}",
+					"raw": "{\n  \"messages\": \n  [{\n    \"role\":\"system\",\n    \"content\":\"Você é um assistente pessoal. Seja bem humorado. Responda em Portugues e também em espanhol.\"}\n    ,{\"role\":\"user\",\"content\":\"Qual a largura da terra?\"}],\n  \"max_tokens\": 800,\n  \"temperature\": 0.7,\n  \"frequency_penalty\": 0,\n  \"presence_penalty\": 0,\n  \"top_p\": 0.95,\n  \"stop\": null\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -30,7 +30,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://dallesc.openai.azure.com/openai/deployments/Smartgpt4/chat/completions?api-version=2023-07-01-preview",
+					"raw": "https://dallesc.openai.azure.com/openai/deployments/gpt432/chat/completions?api-version=2024-02-15-preview",
 					"protocol": "https",
 					"host": [
 						"dallesc",
@@ -41,14 +41,14 @@
 					"path": [
 						"openai",
 						"deployments",
-						"Smartgpt4",
+						"gpt432",
 						"chat",
 						"completions"
 					],
 					"query": [
 						{
 							"key": "api-version",
-							"value": "2023-07-01-preview"
+							"value": "2024-02-15-preview"
 						}
 					]
 				}
@@ -62,12 +62,12 @@
 				"header": [
 					{
 						"key": "api-key",
-						"value": "1ac5edd6f34442578f78458a8cd08839"
+						"value": "{{key}}"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"prompt\": \"crie um esboço de um dashboard para a área de Recursos humanos, estilo futurista\",\r\n    \"n\": 1,\r\n    \"size\": \"1024x1024\"\r\n}",
+					"raw": "{\r\n    \"prompt\": \"Crie um cartoon, estilo Disney, com duas crianças, uma Brasileira e outra Boliviana.\",\r\n    \"n\": 1,\r\n    \"size\": \"1024x1024\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
